@@ -1,0 +1,7 @@
+
+Experiment,Clean Accuracy (%),Adversarial Accuracy (%),Test Loss
+Baseline CNN,98.96,,
+FGSM Attack,,72.78,
+Label Poisoning,98.83,,0.1531
+Adversarial Training,98.82,87.79,0.0367
+Adversarial Training + Smoothing,98.12,91.28,
