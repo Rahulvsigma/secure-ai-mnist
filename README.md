@@ -57,10 +57,13 @@ Bandit ran the 23-line CNN model implementation and found no problems. The absen
 
 ## Repository Contents
 
-Implementation, experiments and results are provided in the file called: -
-- `requirements.txt` — Python dependencies.
-
-Once completed, additional scripts, datasets of attacks, defense code and detailed reports should be added.
+- `Secure_AI_MNIST_Assignment.ipynb` — Complete experiment notebook.
+- `requirements.txt` — Required Python packages.
+- `src/train.py` — CNN model implementation.
+- `src/attacks.py` — FGSM adversarial attack.
+- `src/poisoning.py` — Random label-poisoning experiment helper.
+- `src/defenses.py` — Adversarial training and input-smoothing helpers.
+- `results/experiment_results.csv` — Recorded experiment results.
 
 ## Limitations
 
